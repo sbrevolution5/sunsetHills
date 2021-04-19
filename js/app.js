@@ -55,5 +55,6 @@ function displaySunset(list){
         }
         document.getElementById(`r${i}`).innerText =res
     }
+    confetti.start(1000)
     document.getElementById("sunsetResult").innerText = `${total} Buildings can see the sunset`
 }
